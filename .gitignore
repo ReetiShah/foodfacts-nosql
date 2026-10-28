@@ -1,0 +1,7 @@
+data/
+dump/
+.venv/
+__pycache__/
+graph/import/
+*.zip
+.DS_Store

@@ -1,0 +1,45 @@
+services:
+  configsvr:
+    image: mongo:7.0
+    container_name: configsvr
+    command: mongod --configsvr --replSet cfgrs --port 27017 --bind_ip_all
+    volumes: [cfg_data:/data/db]
+
+  shard1:
+    image: mongo:7.0
+    container_name: shard1
+    command: mongod --shardsvr --replSet shard1rs --port 27017 --bind_ip_all
+    volumes: [shard1_data:/data/db]
+
+  shard2:
+    image: mongo:7.0
+    container_name: shard2
+    command: mongod --shardsvr --replSet shard2rs --port 27017 --bind_ip_all
+    volumes: [shard2_data:/data/db]
+
+  mongos:
+    image: mongo:7.0
+    container_name: mongos
+    command: mongos --configdb cfgrs/configsvr:27017 --port 27017 --bind_ip_all
+    ports: ['27017:27017']
+    depends_on: [configsvr, shard1, shard2]
+    restart: unless-stopped
+
+  redis:
+    image: redis:7
+    container_name: redis
+    ports: ['6379:6379']
+
+  api:
+    build: ./api
+    container_name: api
+    environment:
+      MONGO_URI: mongodb://mongos:27017
+      REDIS_URL: redis://redis:6379
+    ports: ['8000:8000']
+    depends_on: [mongos, redis]
+
+volumes:
+  cfg_data:
+  shard1_data:
+  shard2_data:

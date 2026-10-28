@@ -1,0 +1,1135 @@
+
+=== Q1 Ultra-processed share by food group  (292 ms) ===
+{
+  _id: 'Artificially sweetened beverages',
+  products: 2409,
+  upf_pct: 100
+}
+{
+  _id: 'Ice cream',
+  products: 517,
+  upf_pct: 97.9
+}
+{
+  _id: 'Sandwiches',
+  products: 235,
+  upf_pct: 94.9
+}
+{
+  _id: 'Plant-based milk substitutes',
+  products: 806,
+  upf_pct: 89.1
+}
+{
+  _id: 'Sweets',
+  products: 10214,
+  upf_pct: 88.9
+}
+{
+  _id: 'Biscuits and cakes',
+  products: 8949,
+  upf_pct: 88.5
+}
+{
+  _id: 'Pizza pies and quiches',
+  products: 799,
+  upf_pct: 87.5
+}
+{
+  _id: 'Chocolate products',
+  products: 328,
+  upf_pct: 87.2
+}
+{
+  _id: 'Sweetened beverages',
+  products: 4074,
+  upf_pct: 86.1
+}
+{
+  _id: 'Processed meat',
+  products: 2492,
+  upf_pct: 76.3
+}
+{
+  _id: 'One-dish meals',
+  products: 3459,
+  upf_pct: 75.2
+}
+{
+  _id: 'Waters and flavored waters',
+  products: 651,
+  upf_pct: 70.2
+}
+{
+  _id: 'Meat',
+  products: 1706,
+  upf_pct: 62.8
+}
+{
+  _id: 'Dressings and sauces',
+  products: 9520,
+  upf_pct: 62.6
+}
+{
+  _id: 'Appetizers',
+  products: 1055,
+  upf_pct: 52.2
+}
+{
+  _id: 'Cheese',
+  products: 4439,
+  upf_pct: 51
+}
+{
+  _id: 'Fish and seafood',
+  products: 1715,
+  upf_pct: 49.9
+}
+{
+  _id: 'Unsweetened beverages',
+  products: 1964,
+  upf_pct: 42.5
+}
+{
+  _id: 'Cereals',
+  products: 4840,
+  upf_pct: 42.3
+}
+{
+  _id: 'Milk and yogurt',
+  products: 1245,
+  upf_pct: 39.5
+}
+{
+  _id: 'Salty and fatty products',
+  products: 442,
+  upf_pct: 37.1
+}
+{
+  _id: 'Legumes',
+  products: 671,
+  upf_pct: 34.9
+}
+{
+  _id: 'Fruits',
+  products: 1397,
+  upf_pct: 29.5
+}
+{
+  _id: 'Fruit juices',
+  products: 395,
+  upf_pct: 28.1
+}
+{
+  _id: 'Fats',
+  products: 2130,
+  upf_pct: 27.8
+}
+{
+  _id: 'Vegetables',
+  products: 2497,
+  upf_pct: 14.5
+}
+{
+  _id: 'Nuts',
+  products: 552,
+  upf_pct: 13.2
+}
+{
+  _id: 'Dried fruits',
+  products: 223,
+  upf_pct: 12.6
+}
+
+=== Q2-prep Most common labels  (131 ms) ===
+{
+  _id: 'en:organic',
+  products: 7862
+}
+{
+  _id: 'en:no-gmos',
+  products: 5326
+}
+{
+  _id: 'en:non-gmo-project',
+  products: 5181
+}
+{
+  _id: 'en:no-gluten',
+  products: 2289
+}
+{
+  _id: 'en:usda-organic',
+  products: 974
+}
+{
+  _id: 'en:vegetarian',
+  products: 923
+}
+{
+  _id: 'en:vegan',
+  products: 879
+}
+{
+  _id: 'en:kosher',
+  products: 859
+}
+{
+  _id: 'en:no-preservatives',
+  products: 540
+}
+{
+  _id: 'en:no-artificial-flavors',
+  products: 486
+}
+{
+  _id: 'en:orthodox-union-kosher',
+  products: 419
+}
+{
+  _id: 'en:100-natural',
+  products: 308
+}
+{
+  _id: 'fr:entrepreneurs-engages',
+  products: 173
+}
+{
+  _id: 'en:fair-trade',
+  products: 144
+}
+{
+  _id: 'en:no-lactose',
+  products: 142
+}
+
+=== Q2 Health-halo labels vs Nutri-Score and NOVA  (36 ms) ===
+{
+  _id: 'en:100-natural',
+  products: 266,
+  pct_grade_D_or_E: 71.1,
+  pct_ultra_processed: 91.4
+}
+{
+  _id: 'en:no-artificial-flavors',
+  products: 393,
+  pct_grade_D_or_E: 66.7,
+  pct_ultra_processed: 78.9
+}
+{
+  _id: 'en:no-gluten',
+  products: 1849,
+  pct_grade_D_or_E: 59.5,
+  pct_ultra_processed: 61.4
+}
+{
+  _id: 'en:no-preservatives',
+  products: 419,
+  pct_grade_D_or_E: 56.3,
+  pct_ultra_processed: 54.9
+}
+{
+  _id: 'en:vegan',
+  products: 683,
+  pct_grade_D_or_E: 48.5,
+  pct_ultra_processed: 53.6
+}
+{
+  _id: 'en:usda-organic',
+  products: 734,
+  pct_grade_D_or_E: 47.4,
+  pct_ultra_processed: 35.7
+}
+{
+  _id: 'en:no-added-sugar',
+  products: 94,
+  pct_grade_D_or_E: 45.7,
+  pct_ultra_processed: 48.9
+}
+{
+  _id: 'en:organic',
+  products: 6677,
+  pct_grade_D_or_E: 42.7,
+  pct_ultra_processed: 33.7
+}
+{
+  _id: 'en:no-gmos',
+  products: 4222,
+  pct_grade_D_or_E: 37.6,
+  pct_ultra_processed: 35.1
+}
+{
+  _id: 'en:non-gmo-project',
+  products: 4107,
+  pct_grade_D_or_E: 37.1,
+  pct_ultra_processed: 34.5
+}
+
+=== Q2 baseline: all products  (143 ms) ===
+{
+  _id: 'all products',
+  products: 121237,
+  pct_grade_D_or_E: 60.5,
+  pct_ultra_processed: 65.4
+}
+
+=== Q3 Top additives and their link to ultra-processing  (148 ms) ===
+{
+  _id: 'en:e330',
+  products: 33646,
+  upf_pct: 86.7
+}
+{
+  _id: 'en:e322',
+  products: 21345,
+  upf_pct: 100
+}
+{
+  _id: 'en:e322i',
+  products: 21266,
+  upf_pct: 100
+}
+{
+  _id: 'en:e415',
+  products: 12645,
+  upf_pct: 100
+}
+{
+  _id: 'en:e500',
+  products: 11813,
+  upf_pct: 92.6
+}
+{
+  _id: 'en:e500ii',
+  products: 11602,
+  upf_pct: 92.6
+}
+{
+  _id: 'en:e129',
+  products: 10803,
+  upf_pct: 100
+}
+{
+  _id: 'en:e102',
+  products: 9693,
+  upf_pct: 100
+}
+{
+  _id: 'en:e471',
+  products: 9200,
+  upf_pct: 100
+}
+{
+  _id: 'en:e412',
+  products: 9110,
+  upf_pct: 100
+}
+{
+  _id: 'en:e150c',
+  products: 8853,
+  upf_pct: 100
+}
+{
+  _id: 'en:e202',
+  products: 8297,
+  upf_pct: 95.3
+}
+{
+  _id: 'en:e133',
+  products: 8169,
+  upf_pct: 100
+}
+{
+  _id: 'en:e407',
+  products: 6707,
+  upf_pct: 100
+}
+{
+  _id: 'en:e110',
+  products: 6630,
+  upf_pct: 100
+}
+{
+  _id: 'en:e270',
+  products: 6212,
+  upf_pct: 92.5
+}
+{
+  _id: 'en:e211',
+  products: 6041,
+  upf_pct: 93
+}
+{
+  _id: 'en:e410',
+  products: 5161,
+  upf_pct: 100
+}
+{
+  _id: 'en:e341',
+  products: 5088,
+  upf_pct: 96.3
+}
+{
+  _id: 'en:e450',
+  products: 4868,
+  upf_pct: 100
+}
+
+=== Q4 Brand leaderboard (brands with 50+ graded products)  (320 ms) ===
+{
+  healthiest: [
+    {
+      _id: 'new-world-pasta-company',
+      products: 121,
+      avg_score: 0.15
+    },
+    {
+      _id: 'hanover',
+      products: 60,
+      avg_score: 0.17
+    },
+    {
+      _id: 'allens',
+      products: 60,
+      avg_score: 0.25
+    },
+    {
+      _id: 'the-pictsweet-company',
+      products: 102,
+      avg_score: 0.31
+    },
+    {
+      _id: 'barilla',
+      products: 73,
+      avg_score: 0.32
+    },
+    {
+      _id: 'birds-eye',
+      products: 92,
+      avg_score: 0.38
+    },
+    {
+      _id: 'earthbound-farm',
+      products: 59,
+      avg_score: 0.39
+    },
+    {
+      _id: 'bush-s-best',
+      products: 60,
+      avg_score: 0.47
+    },
+    {
+      _id: 'del-monte-foods-inc',
+      products: 90,
+      avg_score: 0.48
+    },
+    {
+      _id: 'bumble-bee',
+      products: 74,
+      avg_score: 0.62
+    }
+  ],
+  least_healthy: [
+    {
+      _id: 'progressive-balloons-inc',
+      products: 53,
+      avg_score: 4
+    },
+    {
+      _id: 'jelly-belly-candy-company',
+      products: 77,
+      avg_score: 4
+    },
+    {
+      _id: 'lofthouse-foods',
+      products: 61,
+      avg_score: 4
+    },
+    {
+      _id: 'r-m-palmer-co',
+      products: 53,
+      avg_score: 4
+    },
+    {
+      _id: 'palmer',
+      products: 66,
+      avg_score: 4
+    },
+    {
+      _id: 'lofthouse-cookies',
+      products: 50,
+      avg_score: 4
+    },
+    {
+      _id: 'lindt',
+      products: 134,
+      avg_score: 3.99
+    },
+    {
+      _id: 'lindt-sprungli-schweiz-ag',
+      products: 97,
+      avg_score: 3.99
+    },
+    {
+      _id: 'hebert-confections-llc',
+      products: 52,
+      avg_score: 3.98
+    },
+    {
+      _id: 'frankford',
+      products: 113,
+      avg_score: 3.98
+    }
+  ]
+}
+
+=== Q5 Nutri-Score vs Eco-Score  (85 ms) ===
+{
+  matrix: [
+    {
+      _id: {
+        nutri: 'a',
+        eco: 'a'
+      },
+      n: 808
+    },
+    {
+      _id: {
+        nutri: 'a',
+        eco: 'b'
+      },
+      n: 710
+    },
+    {
+      _id: {
+        nutri: 'a',
+        eco: 'c'
+      },
+      n: 155
+    },
+    {
+      _id: {
+        nutri: 'a',
+        eco: 'd'
+      },
+      n: 273
+    },
+    {
+      _id: {
+        nutri: 'a',
+        eco: 'e'
+      },
+      n: 580
+    },
+    {
+      _id: {
+        nutri: 'b',
+        eco: 'a'
+      },
+      n: 690
+    },
+    {
+      _id: {
+        nutri: 'b',
+        eco: 'b'
+      },
+      n: 385
+    },
+    {
+      _id: {
+        nutri: 'b',
+        eco: 'c'
+      },
+      n: 99
+    },
+    {
+      _id: {
+        nutri: 'b',
+        eco: 'd'
+      },
+      n: 802
+    },
+    {
+      _id: {
+        nutri: 'b',
+        eco: 'e'
+      },
+      n: 655
+    },
+    {
+      _id: {
+        nutri: 'c',
+        eco: 'a'
+      },
+      n: 300
+    },
+    {
+      _id: {
+        nutri: 'c',
+        eco: 'b'
+      },
+      n: 827
+    },
+    {
+      _id: {
+        nutri: 'c',
+        eco: 'c'
+      },
+      n: 318
+    },
+    {
+      _id: {
+        nutri: 'c',
+        eco: 'd'
+      },
+      n: 1178
+    },
+    {
+      _id: {
+        nutri: 'c',
+        eco: 'e'
+      },
+      n: 339
+    },
+    {
+      _id: {
+        nutri: 'd',
+        eco: 'a'
+      },
+      n: 219
+    },
+    {
+      _id: {
+        nutri: 'd',
+        eco: 'b'
+      },
+      n: 1867
+    },
+    {
+      _id: {
+        nutri: 'd',
+        eco: 'c'
+      },
+      n: 1162
+    },
+    {
+      _id: {
+        nutri: 'd',
+        eco: 'd'
+      },
+      n: 3133
+    },
+    {
+      _id: {
+        nutri: 'd',
+        eco: 'e'
+      },
+      n: 286
+    },
+    {
+      _id: {
+        nutri: 'e',
+        eco: 'a'
+      },
+      n: 471
+    },
+    {
+      _id: {
+        nutri: 'e',
+        eco: 'b'
+      },
+      n: 942
+    },
+    {
+      _id: {
+        nutri: 'e',
+        eco: 'c'
+      },
+      n: 1623
+    },
+    {
+      _id: {
+        nutri: 'e',
+        eco: 'd'
+      },
+      n: 4389
+    },
+    {
+      _id: {
+        nutri: 'e',
+        eco: 'e'
+      },
+      n: 598
+    }
+  ],
+  agreement: [
+    {
+      total: 22809,
+      same_grade_pct: 23
+    }
+  ]
+}
+
+=== Q6 Products added per year (data provenance)  (216 ms) ===
+{
+  _id: 2012,
+  added: 16,
+  running_total: 16
+}
+{
+  _id: 2013,
+  added: 83,
+  running_total: 99
+}
+{
+  _id: 2014,
+  added: 61,
+  running_total: 160
+}
+{
+  _id: 2015,
+  added: 1001,
+  running_total: 1161
+}
+{
+  _id: 2016,
+  added: 293,
+  running_total: 1454
+}
+{
+  _id: 2017,
+  added: 143580,
+  running_total: 145034
+}
+{
+  _id: 2018,
+  added: 405,
+  running_total: 145439
+}
+{
+  _id: 2019,
+  added: 1,
+  running_total: 145440
+}
+{
+  _id: 2020,
+  added: 1,
+  running_total: 145441
+}
+{
+  _id: 2021,
+  added: 2,
+  running_total: 145443
+}
+{
+  _id: 2024,
+  added: 1,
+  running_total: 145444
+}
+
+=== Q7a Sugar bands per 100 g: low <5, medium 5-22.5, high >22.5  (195 ms) ===
+{
+  _id: 0,
+  products: 55601,
+  upf_pct: 55
+}
+{
+  _id: 5,
+  products: 32299,
+  upf_pct: 69.1
+}
+{
+  _id: 22.5,
+  products: 37643,
+  upf_pct: 86
+}
+
+=== Q7b Median sugar by food group  (127 ms) ===
+{
+  _id: 'Dried fruits',
+  products: 245,
+  median_sugar: 63.4
+}
+{
+  _id: 'Sweets',
+  products: 10334,
+  median_sugar: 55
+}
+{
+  _id: 'Chocolate products',
+  products: 334,
+  median_sugar: 46.4
+}
+{
+  _id: 'Biscuits and cakes',
+  products: 8974,
+  median_sugar: 31
+}
+{
+  _id: 'Ice cream',
+  products: 518,
+  median_sugar: 22.5
+}
+{
+  _id: 'Fruits',
+  products: 1460,
+  median_sugar: 12.7
+}
+{
+  _id: 'Sweetened beverages',
+  products: 4100,
+  median_sugar: 11.2
+}
+{
+  _id: 'Fruit juices',
+  products: 407,
+  median_sugar: 11.2
+}
+{
+  _id: 'Unsweetened beverages',
+  products: 2054,
+  median_sugar: 8.8
+}
+{
+  _id: 'Milk and yogurt',
+  products: 1288,
+  median_sugar: 5
+}
+{
+  _id: 'Dressings and sauces',
+  products: 9041,
+  median_sugar: 4.8
+}
+{
+  _id: 'Plant-based milk substitutes',
+  products: 800,
+  median_sugar: 4.2
+}
+{
+  _id: 'Cereals',
+  products: 5053,
+  median_sugar: 3.6
+}
+{
+  _id: 'Nuts',
+  products: 554,
+  median_sugar: 3.6
+}
+{
+  _id: 'Pizza pies and quiches',
+  products: 802,
+  median_sugar: 2.9
+}
+{
+  _id: 'Vegetables',
+  products: 2598,
+  median_sugar: 2.5
+}
+{
+  _id: 'One-dish meals',
+  products: 3453,
+  median_sugar: 1.8
+}
+{
+  _id: 'Sandwiches',
+  products: 235,
+  median_sugar: 1.8
+}
+{
+  _id: 'Processed meat',
+  products: 2276,
+  median_sugar: 1.3
+}
+{
+  _id: 'Meat',
+  products: 1600,
+  median_sugar: 0.9
+}
+{
+  _id: 'Legumes',
+  products: 685,
+  median_sugar: 0.8
+}
+{
+  _id: 'Artificially sweetened beverages',
+  products: 2234,
+  median_sugar: 0.4
+}
+{
+  _id: 'Salty and fatty products',
+  products: 300,
+  median_sugar: 0
+}
+{
+  _id: 'Fats',
+  products: 1516,
+  median_sugar: 0
+}
+{
+  _id: 'Fish and seafood',
+  products: 1800,
+  median_sugar: 0
+}
+{
+  _id: 'Waters and flavored waters',
+  products: 508,
+  median_sugar: 0
+}
+{
+  _id: 'Appetizers',
+  products: 1061,
+  median_sugar: 0
+}
+{
+  _id: 'Cheese',
+  products: 4326,
+  median_sugar: 0
+}
+
+=== Q8 Ingredient and additive counts by NOVA group  (148 ms) ===
+{
+  _id: 1,
+  products: 13537,
+  avg_ingredients: 2.7,
+  avg_additives: 0.1
+}
+{
+  _id: 2,
+  products: 2345,
+  avg_ingredients: 2,
+  avg_additives: 0.04
+}
+{
+  _id: 3,
+  products: 28149,
+  avg_ingredients: 6.4,
+  avg_additives: 0.4
+}
+{
+  _id: 4,
+  products: 92208,
+  avg_ingredients: 12.2,
+  avg_additives: 4.04
+}
+
+=== Q10 "protein bar" products by Nutri-Score  (14 ms) ===
+{
+  _id: 'a',
+  products: 14
+}
+{
+  _id: 'c',
+  products: 77
+}
+{
+  _id: 'd',
+  products: 121
+}
+{
+  _id: 'e',
+  products: 95
+}
+
+=== Q12 Organic vs non-organic within the same food group (positive gap = organic healthier)  (143 ms) ===
+{
+  _id: 'Meat',
+  organic_products: 81,
+  other_products: 1554,
+  organic_avg_score: 1.17,
+  other_avg_score: 2.35,
+  organic_upf_pct: 21,
+  other_upf_pct: 64.9,
+  score_gap: 1.18
+}
+{
+  _id: 'Processed meat',
+  organic_products: 52,
+  other_products: 2326,
+  organic_avg_score: 2.35,
+  other_avg_score: 3.35,
+  organic_upf_pct: 23.1,
+  other_upf_pct: 78,
+  score_gap: 1
+}
+{
+  _id: 'One-dish meals',
+  organic_products: 333,
+  other_products: 3080,
+  organic_avg_score: 1.25,
+  other_avg_score: 2.18,
+  organic_upf_pct: 44.1,
+  other_upf_pct: 78.8,
+  score_gap: 0.93
+}
+{
+  _id: 'Plant-based milk substitutes',
+  organic_products: 100,
+  other_products: 687,
+  organic_avg_score: 1.86,
+  other_avg_score: 2.61,
+  organic_upf_pct: 76,
+  other_upf_pct: 91.3,
+  score_gap: 0.75
+}
+{
+  _id: 'Fruits',
+  organic_products: 160,
+  other_products: 1196,
+  organic_avg_score: 0.31,
+  other_avg_score: 1.01,
+  organic_upf_pct: 3.1,
+  other_upf_pct: 33.9,
+  score_gap: 0.7
+}
+{
+  _id: 'Sweetened beverages',
+  organic_products: 274,
+  other_products: 3214,
+  organic_avg_score: 2.9,
+  other_avg_score: 3.53,
+  organic_upf_pct: 66.1,
+  other_upf_pct: 87.2,
+  score_gap: 0.63
+}
+{
+  _id: 'Appetizers',
+  organic_products: 82,
+  other_products: 946,
+  organic_avg_score: 2.3,
+  other_avg_score: 2.9,
+  organic_upf_pct: 15.9,
+  other_upf_pct: 56,
+  score_gap: 0.6
+}
+{
+  _id: 'Milk and yogurt',
+  organic_products: 141,
+  other_products: 1097,
+  organic_avg_score: 1.81,
+  other_avg_score: 2.37,
+  organic_upf_pct: 19.9,
+  other_upf_pct: 42.1,
+  score_gap: 0.56
+}
+{
+  _id: 'Artificially sweetened beverages',
+  organic_products: 35,
+  other_products: 1807,
+  organic_avg_score: 2.09,
+  other_avg_score: 2.61,
+  organic_upf_pct: 100,
+  other_upf_pct: 99.9,
+  score_gap: 0.52
+}
+{
+  _id: 'Cereals',
+  organic_products: 471,
+  other_products: 4200,
+  organic_avg_score: 1.14,
+  other_avg_score: 1.64,
+  organic_upf_pct: 21.2,
+  other_upf_pct: 45.2,
+  score_gap: 0.5
+}
+{
+  _id: 'Dressings and sauces',
+  organic_products: 566,
+  other_products: 8206,
+  organic_avg_score: 2.18,
+  other_avg_score: 2.61,
+  organic_upf_pct: 37.8,
+  other_upf_pct: 64.8,
+  score_gap: 0.43
+}
+{
+  _id: 'Legumes',
+  organic_products: 114,
+  other_products: 538,
+  organic_avg_score: 0.25,
+  other_avg_score: 0.64,
+  organic_upf_pct: 5.3,
+  other_upf_pct: 41.6,
+  score_gap: 0.39
+}
+{
+  _id: 'Biscuits and cakes',
+  organic_products: 216,
+  other_products: 7725,
+  organic_avg_score: 3.29,
+  other_avg_score: 3.64,
+  organic_upf_pct: 59.3,
+  other_upf_pct: 89.4,
+  score_gap: 0.35
+}
+{
+  _id: 'Vegetables',
+  organic_products: 245,
+  other_products: 2176,
+  organic_avg_score: 0.22,
+  other_avg_score: 0.52,
+  organic_upf_pct: 0.4,
+  other_upf_pct: 16.4,
+  score_gap: 0.3
+}
+{
+  _id: 'Sweets',
+  organic_products: 442,
+  other_products: 9583,
+  organic_avg_score: 3.37,
+  other_avg_score: 3.61,
+  organic_upf_pct: 63.6,
+  other_upf_pct: 90.4,
+  score_gap: 0.24
+}
+{
+  _id: 'Unsweetened beverages',
+  organic_products: 319,
+  other_products: 1502,
+  organic_avg_score: 2.33,
+  other_avg_score: 2.5,
+  organic_upf_pct: 34.2,
+  other_upf_pct: 42.4,
+  score_gap: 0.17
+}
+{
+  _id: 'Fruit juices',
+  organic_products: 36,
+  other_products: 352,
+  organic_avg_score: 3.08,
+  other_avg_score: 3.18,
+  organic_upf_pct: 30.6,
+  other_upf_pct: 27.8,
+  score_gap: 0.1
+}
+{
+  _id: 'Cheese',
+  organic_products: 166,
+  other_products: 4195,
+  organic_avg_score: 2.96,
+  other_avg_score: 3.04,
+  organic_upf_pct: 34.3,
+  other_upf_pct: 51.9,
+  score_gap: 0.08
+}
+{
+  _id: 'Teas and herbal teas and coffees',
+  organic_products: 32,
+  other_products: 119,
+  organic_avg_score: 1.62,
+  other_avg_score: 1.42,
+  organic_upf_pct: 50,
+  other_upf_pct: 54.6,
+  score_gap: -0.2
+}
+{
+  _id: 'Fats',
+  organic_products: 225,
+  other_products: 1840,
+  organic_avg_score: 2.2,
+  other_avg_score: 1.96,
+  organic_upf_pct: 8.9,
+  other_upf_pct: 30.1,
+  score_gap: -0.24
+}
+
+=== Q11 brand_scorecards documents: 1170 ===
